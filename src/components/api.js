@@ -7,6 +7,7 @@ const Api = () =>{
 
 useEffect (() => {
 
+    
    //console.log('hola')
   obtenerDatos()
 
@@ -26,7 +27,7 @@ return(
 <ul>
     {
         equipo.map(item => (
-            <li key={item.id}>{item.name} - {item.email}</li>
+            <li key={item.id}> {item.name} - {item.email} - {item.phone}</li>
 
         ))
     }
