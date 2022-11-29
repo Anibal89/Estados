@@ -14,7 +14,7 @@ const Api = () => {
     //console.log(users)
     setEquipo(users);
   };
-
+//hola
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Prueba de hooks :v</h1>
